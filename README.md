@@ -1,2 +1,2 @@
-# Hand-Gesture-Recognition-
-using convolutional  neural networks and background separation
+# Hand-Gesture-Recognition-For-Human-Computer-Interaction
+using convolutional  neural networks and Opencv
