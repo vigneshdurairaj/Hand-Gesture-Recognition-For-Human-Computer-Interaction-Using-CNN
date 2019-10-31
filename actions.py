@@ -23,9 +23,9 @@ def email(option):
     t = ''
     try:
 
-        sender_email = "dvproject7@gmail.com"
-        receiver_email = "vigneshdurairaj99@gmail.com"
-        password = "dv@123456"
+        sender_email = "xxx@gmail.com"
+        receiver_email = "yyy@gmail.com"
+        password = "d########"
         ImgFileName = 'Alert.png'
 
         message = MIMEMultipart("alternative")
@@ -101,10 +101,10 @@ from sinchsms import SinchSMS
 def sendSMS():
 
 
-    number = '+919994977934'
+    number = '+91999*******'
     message = 'This is an automated message from HGR_System! You"ve been sent an alert from the registered person. '
 
-    client = SinchSMS( '5805925f-d9a5-4462-ad87-44fa5cc88a8d', 'QIUg+MUPx0eZFIR1oT57ow==' )
+    client = SinchSMS( '<Give your SINCH KEY HERE>' )
 
     print("Sending '%s' to %s" % (message, number))
     response = client.send_message(number, message)
